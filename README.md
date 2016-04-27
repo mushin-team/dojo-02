@@ -1,23 +1,14 @@
-# Dojo 01
+# Dojo 02
 
-A cada 4 anos, a diferença de horas entre o ano solar e o do calendário convencional completa cerca de 24 horas (mais exatamente: 23 horas, 15 minutos e 864 milésimos de segundo). Para compensar essa diferença e evitar um descompasso em relação às estações do ano, insere-se um dia extra no calendário e o mês de fevereiro fica com 29 dias. Essa correção é especialmente importante para atividades atreladas às estações, como a agricultura e até mesmo as festas religiosas.
+## Jokenpo
 
-Um determinado ano é bissexto se:
+Você está resolvendo este problema. 
+Este problema foi utilizado em 430 Dojo(s).
+Jokenpo é uma brincadeira japonesa, onde dois jogadores escolhem um dentre três possíveis itens: Pedra, Papel ou Tesoura.
+O objetivo é fazer um juiz de Jokenpo que dada a jogada dos dois jogadores informa o resultado da partida.
 
-- O ano for divisível por 4, mas não divisível por 100, exceto se ele for também divisível por 400.
+As regras são as seguintes:
 
-Exemplos:
-São bissextos por exemplo:
-- 1600
-- 1732
-- 1888
-- 1944
-- 2008
-
-Não são bissextos por exemplo:
-- 1742
-- 1889
-- 1951
-- 2011
-
-Escreva uma função que determina se um determinado ano informado é bissexto ou não.
+- Pedra empata com Pedra e ganha de Tesoura
+- Tesoura empata com Tesoura e ganha de Papel
+- Papel empata com Papel e ganha de Pedra
